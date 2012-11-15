@@ -5,13 +5,38 @@ _**Note:** The examples in this style guide uses css methods to help identify ta
 
 ## HTML5 element structure and layout.
 
-- `<header>` used to wrap the nav and top section of the site as well as any  any top section of `<article>`
+### Header and hgroup elements
+
+`<header>` used to wrap the nav and top section of the site as well as any sections of `<article>` to consulate assoicated article meta data (including the use of the `<time>` element.
 
 Example 1:
-  
-    <header class="l-site">
+    
+    <header class="l-mainHead">
       <nav>
+        <!-- Site Navigation -->
       </nav>
     </header>
-     
-- `<section>` elements used for 
+      
+Example 2:
+       
+    <article>
+      <header>
+        <!-- Article date/meta information -->
+      </header>
+      
+      <!-- Article body -->
+    </article>
+       
+### Section element
+
+`<section>` elements used for 
+
+### Article element
+
+### Summary element
+
+### Figure and figcaption elements
+
+### Aside element
+
+### Footer element

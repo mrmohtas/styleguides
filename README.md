@@ -1,5 +1,4 @@
-My personal style guide 
-=======================
+# My personal style guide 
 
 This documentation includes guides for the code I use on a daily basis.
 
